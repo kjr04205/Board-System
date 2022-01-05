@@ -19,6 +19,17 @@
 </head>
 <body>
 	<% 
+		String userID = null;
+		if(session.getAttribute("userID") != null){
+			userID = (String) session.getAttribute("userID");	
+		}
+		if(userID != null){
+			PrintWriter script = response.getWriter();
+	        script.println("<script>");
+	        script.println("alert('이미 로그인이 되어있습니다.')");
+	        script.println("location.href = 'main.jsp'"); 
+	        script.println("</script>");
+		}
 		if(user.getUserID() == null || user.getUserPassword() == null || user.getUserName() == null || user.getUserGender() == null || user.getUserEmail() == null){
 			PrintWriter script = response.getWriter();
             script.println("<script>");
@@ -38,6 +49,7 @@
 	            script.println("history.back()");    // 이전 페이지로 사용자를 보냄
 	            script.println("</script>");
 	        }else{
+	        	session.setAttribute("userID", user.getUserID());
 	            PrintWriter script = response.getWriter();
 	            script.println("<script>");
 	            script.println("location.href='main.jsp'");
