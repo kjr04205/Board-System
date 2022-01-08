@@ -9,6 +9,7 @@
   <script src="js/bootstrap.js"></script>
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/bootstrap.css"> 
+<link rel="stylesheet" href="css/custom.css">
 <title>BoardSystem</title>
 </head>
 <body>

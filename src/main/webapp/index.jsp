@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>BoardSystem</title>
+<link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 	<script>
