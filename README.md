@@ -12,4 +12,6 @@
 > 6. 메인 페이지 Image Slider 기능 개발<br>
 
 ### 기능 추가
-> textarea 라이브러리 summernote를 사용하여 글쓰기 font 커스텀기능 개발
+#### 2022.01.10<br>
+> textarea 라이브러리 summernote를 사용하여 글쓰기 font 커스텀기능 개발<br><br>
+> ![image](https://user-images.githubusercontent.com/63985698/148759861-71d49f0c-e1d4-4871-9a74-dff89b271436.png)
