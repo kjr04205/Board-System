@@ -8,8 +8,22 @@
 <meta name="viewport" content="width=device-width", initial-scale="1" >  <!-- 반응형 웹에 사용하는 메타태그 -->
 <link rel="stylesheet" href="css/bootstrap.css"> <!-- 참조  -->
 <link rel="stylesheet" href="css/custom.css">
+<!--  jQuery, bootstrap -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+
+    <!-- summernote css/js-->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.8/summernote.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.8/summernote.js"></script>
+
 <title>BoardSystem</title>
 </head>
+<script>
+  	$(document).ready(function() {
+  	  $('#summernote').summernote();
+  	});
+</script>
 <body>
 <%
     String userID = null; // 로그인이 된 사람들은 로그인정보를 담을 수 있도록한다
@@ -84,7 +98,7 @@
 	                    	<td><input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" maxlength="50"></td>
                     	</tr>
                     	<tr>
-	                    	<td><textarea class="form-control" placeholder="글 내용" name="bbsContent" maxlength=""></textarea></td>
+	                    	<td><textarea id="summernote" class="form-control form-textarea" style="height:400px;" placeholder="글 내용" name="bbsContent" maxlength=""></textarea></td>
 	                    </tr>
 	                    
 	                </tbody>
@@ -94,7 +108,7 @@
         	</form>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    
+    
 </body>
 </html>
