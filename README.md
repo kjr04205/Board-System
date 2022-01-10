@@ -1,10 +1,4 @@
+<h1 align="center">Today's me "오늘의 나" 📝</h1>     
 
-# Getting Started with Create JSP App
-
-## Board System
-본 프로젝트는 Java, JSP 프로젝트로써, 커뮤니티를 제작하고 있습니다.
-
-### project progress
-- 
-
-
+### 프로젝트 설명
+> 오늘의 나의 하루를 마무리하며 습관처럼 가까이 하는 휴대폰과 컴퓨터로 기록하기 위해 만들게 되었다.
