@@ -12,9 +12,13 @@
 > 6. 메인 페이지 Image Slider 기능 개발<br>
 
 ### 기능
-> 로그인 하지 않은 상태에 글쓰기 버튼을 눌렀을 때<br>
-https://user-images.githubusercontent.com/63985698/149787481-c1116894-8e6f-4764-9796-650b00c3bde2.mp4
-
+> 로그인 하지 않은 상태에 글쓰기 버튼을 눌렀을 때<br><a href="https://user-images.githubusercontent.com/63985698/149787481-c1116894-8e6f-4764-9796-650b00c3bde2.mp4">🎥 자세히 보기</a><br><br>
+![image](https://user-images.githubusercontent.com/63985698/149788225-bd9a0d66-2e3e-4f6b-ac99-79a61e25ca10.png)
+<br><br><br>
+> 이미지 슬라이드 기능<br>
+> <a href="https://user-images.githubusercontent.com/63985698/149788661-21218f11-ea00-4c3f-8bd8-14e4fa25cbe7.mp4">🎥 자세히 보기</a><br><br>
+![image](https://user-images.githubusercontent.com/63985698/149788643-76b50331-e003-417e-9654-27b298359af4.png)
+<br><br><br>
 
 ### 기능 추가
 #### 2022.01.10<br>
