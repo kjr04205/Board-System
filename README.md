@@ -11,6 +11,11 @@
 > 5. 글 쓰기, 글 수정, 글 삭제, 글 보기 기능 개발<br>
 > 6. 메인 페이지 Image Slider 기능 개발<br>
 
+### 기능
+> 로그인 하지 않은 상태에 글쓰기 버튼을 눌렀을 때<br>
+https://user-images.githubusercontent.com/63985698/149787481-c1116894-8e6f-4764-9796-650b00c3bde2.mp4
+
+
 ### 기능 추가
 #### 2022.01.10<br>
 > textarea 라이브러리 summernote를 사용하여 글쓰기 font 커스텀기능 개발<br><br>
